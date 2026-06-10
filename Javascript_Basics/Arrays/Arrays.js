@@ -1,7 +1,7 @@
 let fruit = []; //empty[]
 let fruit_fresh = ["apple", "Ababamna", "banana", "grapes"]; //string[]
 let arr = [1, 2, 3, 4, 5]; //number[]
-console.log(arr[0]); //1
+console.log(fruit_fresh[0]); //1
 console.log(arr[1]); //2
 console.log(arr[2]); //3
 console.log(arr[3]); //4

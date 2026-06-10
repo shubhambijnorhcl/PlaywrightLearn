@@ -26,3 +26,8 @@ arr.splice(2, 3, 8);
 console.log(arr);
 
 
+
+
+let value=[10,20,30,40];
+
+console.log(value);

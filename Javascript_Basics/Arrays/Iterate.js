@@ -9,4 +9,10 @@ console.log("-------");
 
 for (let t of tests) {
     console.log(t);
-} 
+}
+
+let student = ["Sachin", "Rahu;", "Dhoni", "Kohli"];
+
+for (let students in student) {
+    console.log(student[students]);
+}

@@ -1,0 +1,14 @@
+{
+    "name": "learning-playwright-testing-academy",
+    "version": "1.0.0",
+    "description": "Learning Playwright Testing Academy",
+    "scripts": {
+        "test": "playwright test",
+        "test:debug": "playwright test --debug",
+        "test:headed": "playwright test --headed",
+        "test:inspector": "PWDEBUG=1 playwright test"
+    },
+    "devDependencies": {
+        "@playwright/test": "latest"
+    }
+}
