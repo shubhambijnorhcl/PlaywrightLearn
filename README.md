@@ -2,70 +2,76 @@
 
 Repository: https://github.com/shubhambijnorhcl/PlaywrightLearn
 
-A small collection of JavaScript examples and Playwright tests used for learning and experimentation.
+A learning repository for JavaScript concepts, asynchronous programming examples, and Playwright browser automation practice.
 
-**Description**
-- **Purpose:** Hands-on examples for JavaScript fundamentals and Playwright test practice.
-- **Languages:** JavaScript (some TypeScript in `tests/`), Playwright for browser automation.
+## Description
+- **Purpose:** Collect practical JavaScript examples and Playwright tests for learning and experimentation.
+- **Languages:** JavaScript and TypeScript.
+- **Topics covered:** callbacks, promises, async/await, DOM workflows, and Playwright automation.
 
-**Prerequisites**
-- **Node.js:** Install Node.js (v14+ recommended).
-- **Package manager:** `npm` is used for dependencies.
+## Prerequisites
+- Node.js installed (v14+ recommended).
+- `npm` available.
 
-**Install**
-- Install dependencies:
+## Install
+Install dependencies:
 
 ```
 npm install
 ```
 
-**Run Tests**
-- Run the Playwright test suite:
+## Run Tests
+Run the full Playwright test suite:
 
 ```
 npx playwright test
 ```
 
-- Run a single test file (example):
+Run a specific test file:
 
 ```
 npx playwright test tests/google.spec.js
 ```
 
-- View the HTML report:
-
-```
-npx playwright show-report
-# or open the file at playwright-report/index.html in your browser
-```
-
-**Project Structure (high level)**
-- **`CallBack_fn/`**: Callback function examples.
-- **`Chapter_01_Basics/`**: Basic JS exercises and examples.
-- **`Javascript_Basics/`**, **`Javascript_Concept/`**, **`Arrays/`**: Learning snippets and practice problems.
-- **`Playwright/`**: Playwright TypeScript example program.
-- **`tests/`**: Playwright test specs (e.g., `google.spec.js`, `seed.spec.ts`).
-- **`playwright-report/`**: Generated test reports.
-
-**Useful Commands**
-- Run a single test by name:
-
-```
-npx playwright test -g "test name"
-```
-
-- Run tests headed (with a visible browser):
+Run tests in headed mode:
 
 ```
 npx playwright test --headed
 ```
 
-**Contributing**
-- Feel free to add examples, tests, or improvements. Open a PR with a short description of changes.
+View the HTML report:
 
-**License**
-- This repository has no license specified. Add a `LICENSE` file if you want to make one explicit.
+```
+npx playwright show-report
+```
 
----
+Or open `playwright-report/index.html` in your browser.
 
-If you want, I can also: add a `package.json` script for running Playwright, convert some examples to TypeScript, or generate a simple CONTRIBUTING.md.
+## Project Structure
+- `CallBack_fn/`: callback examples and callback-hell scenarios.
+- `Chapter_01_Basics/`: foundational JavaScript examples and exercises.
+- `Javascript_Basics/`: JavaScript functions, arrays, and practice problems.
+- `Javascript_Concept/`: core JS concepts like `var`, `let`, `const`, and hoisting.
+- `Promises/`: promise examples and asynchronous programming practice.
+- `Playwright/`: Playwright example program in TypeScript.
+- `tests/`: Playwright test specs and seed test files.
+- `playwright-report/`: generated Playwright reports.
+
+## Useful Commands
+- Run a single test by title:
+
+```
+npx playwright test -g "test name"
+```
+
+- Run Playwright in headed mode:
+
+```
+npx playwright test --headed
+```
+
+## Contributing
+Feel free to add examples, tests, or improvements. Open a PR with a short description of your changes.
+
+## License
+This repository has no license specified. Add a `LICENSE` file if you want to make one explicit.
