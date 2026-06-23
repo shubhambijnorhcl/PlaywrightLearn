@@ -7,7 +7,7 @@ A learning repository for JavaScript concepts, asynchronous programming examples
 ## Description
 - **Purpose:** Collect practical JavaScript examples and Playwright tests for learning and experimentation.
 - **Languages:** JavaScript and TypeScript.
-- **Topics covered:** callbacks, promises, async/await, DOM workflows, and Playwright automation.
+- **Topics covered:** callbacks, promises, async/await, OOP concepts, DOM workflows, and Playwright automation.
 
 ## Prerequisites
 - Node.js installed (v14+ recommended).
@@ -52,6 +52,11 @@ Or open `playwright-report/index.html` in your browser.
 - `Chapter_01_Basics/`: foundational JavaScript examples and exercises.
 - `Javascript_Basics/`: JavaScript functions, arrays, and practice problems.
 - `Javascript_Concept/`: core JS concepts like `var`, `let`, `const`, and hoisting.
+- `MultiDimensional_Array/`: multidimensional array examples.
+- `OOPS_Basics/`: OOP concepts — classes, static members, inheritance, and more.
+  - `OOPS_Basics/Practice/`: hands-on OOP practice (e.g., `Test2.js` with static properties/methods).
+- `Operators/`: JavaScript operator examples.
+- `Programing/`: general programming exercises.
 - `Promises/`: promise examples and asynchronous programming practice.
 - `Playwright/`: Playwright example program in TypeScript.
 - `tests/`: Playwright test specs and seed test files.
