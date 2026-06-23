@@ -41,3 +41,24 @@ HCL("HR", () => {
 })
 
 
+function zomatoroder(item, callback) {
+    console.log("Customer Order " + item);
+
+    callback();
+
+}
+
+zomatoroder("Momos", function () {
+    console.log("Order is prepared");
+
+})
+
+console.log("time starts");
+
+setTimeout(() => {
+    console.log("Test");
+
+
+}, 2000)
+console.log("time ends");
+
